@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/7e9b0bfe10164d8e8ae5fe11fafb97bd/artifacts
+end_time: 1738448876406
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e9b0bfe10164d8e8ae5fe11fafb97bd
+run_name: valuable-owl-44
+run_uuid: 7e9b0bfe10164d8e8ae5fe11fafb97bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738448874069
+status: 3
+tags: []
+user_id: brice

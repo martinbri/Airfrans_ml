@@ -1,0 +1,10 @@
+{
+  "input_columns": [
+    "Re",
+    "AoA",
+    "Camber(NACA)",
+    "Pos max Camber (NACA)",
+    "Thickness"
+  ],
+  "output_column": "Cd"
+}

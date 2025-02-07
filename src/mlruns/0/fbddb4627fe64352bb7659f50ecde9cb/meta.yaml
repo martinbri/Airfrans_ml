@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/fbddb4627fe64352bb7659f50ecde9cb/artifacts
+end_time: 1738454777240
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fbddb4627fe64352bb7659f50ecde9cb
+run_name: capricious-ox-67
+run_uuid: fbddb4627fe64352bb7659f50ecde9cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738454774793
+status: 3
+tags: []
+user_id: brice

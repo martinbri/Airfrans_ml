@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/6922fe1b1ecf4f76ab64e10629846c6e/artifacts
+end_time: 1738512963777
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: active
+run_id: 6922fe1b1ecf4f76ab64e10629846c6e
+run_name: efficient-ray-790
+run_uuid: 6922fe1b1ecf4f76ab64e10629846c6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738512947260
+status: 3
+tags: []
+user_id: brice

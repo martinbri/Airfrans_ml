@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/2061acc85b3b4607a2cae85632bd7f9a/artifacts
+end_time: 1738436966512
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2061acc85b3b4607a2cae85632bd7f9a
+run_name: marvelous-owl-126
+run_uuid: 2061acc85b3b4607a2cae85632bd7f9a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738436966456
+status: 3
+tags: []
+user_id: brice

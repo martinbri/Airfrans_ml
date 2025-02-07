@@ -1,0 +1,9 @@
+{
+  "input_columns": [
+    "AoA",
+    "Camber(NACA)",
+    "Pos max Camber (NACA)",
+    "Thickness"
+  ],
+  "output_column": "Fitness"
+}

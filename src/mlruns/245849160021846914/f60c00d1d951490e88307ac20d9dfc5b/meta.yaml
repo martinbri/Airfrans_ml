@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/f60c00d1d951490e88307ac20d9dfc5b/artifacts
+end_time: 1738513246193
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: active
+run_id: f60c00d1d951490e88307ac20d9dfc5b
+run_name: rare-finch-925
+run_uuid: f60c00d1d951490e88307ac20d9dfc5b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738513241232
+status: 3
+tags: []
+user_id: brice

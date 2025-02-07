@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/9354dbe4fb45486bae82ea23c9a5d2de/artifacts
+end_time: 1738513033267
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: active
+run_id: 9354dbe4fb45486bae82ea23c9a5d2de
+run_name: nimble-frog-179
+run_uuid: 9354dbe4fb45486bae82ea23c9a5d2de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738513028883
+status: 3
+tags: []
+user_id: brice

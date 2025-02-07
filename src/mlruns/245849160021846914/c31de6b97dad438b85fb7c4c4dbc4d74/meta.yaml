@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/c31de6b97dad438b85fb7c4c4dbc4d74/artifacts
+deleted_time: 1738510421780
+end_time: 1738509599444
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: c31de6b97dad438b85fb7c4c4dbc4d74
+run_name: bedecked-robin-673
+run_uuid: c31de6b97dad438b85fb7c4c4dbc4d74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738509597040
+status: 3
+tags: []
+user_id: brice

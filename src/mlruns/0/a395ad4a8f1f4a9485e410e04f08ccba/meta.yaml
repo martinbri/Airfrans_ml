@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/a395ad4a8f1f4a9485e410e04f08ccba/artifacts
+end_time: 1738451154592
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a395ad4a8f1f4a9485e410e04f08ccba
+run_name: lyrical-shrimp-201
+run_uuid: a395ad4a8f1f4a9485e410e04f08ccba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738451154582
+status: 3
+tags: []
+user_id: brice

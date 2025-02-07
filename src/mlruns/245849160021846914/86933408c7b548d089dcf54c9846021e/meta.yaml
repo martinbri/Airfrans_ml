@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/86933408c7b548d089dcf54c9846021e/artifacts
+deleted_time: 1738510434240
+end_time: 1738434905338
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: 86933408c7b548d089dcf54c9846021e
+run_name: upbeat-snake-900
+run_uuid: 86933408c7b548d089dcf54c9846021e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738434905315
+status: 4
+tags: []
+user_id: brice

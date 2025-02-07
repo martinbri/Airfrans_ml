@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/458445a338ff48f1afdaaa0006b03067/artifacts
+end_time: 1738456499722
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 458445a338ff48f1afdaaa0006b03067
+run_name: honorable-fawn-804
+run_uuid: 458445a338ff48f1afdaaa0006b03067
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738456497016
+status: 3
+tags: []
+user_id: brice

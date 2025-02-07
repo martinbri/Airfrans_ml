@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/c9ca46aa1486416da06ef512990ab16b/artifacts
+deleted_time: 1738510421778
+end_time: 1738510081899
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: c9ca46aa1486416da06ef512990ab16b
+run_name: rare-worm-20
+run_uuid: c9ca46aa1486416da06ef512990ab16b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738510078577
+status: 3
+tags: []
+user_id: brice

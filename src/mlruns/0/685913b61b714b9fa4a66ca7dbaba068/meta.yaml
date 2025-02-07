@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/685913b61b714b9fa4a66ca7dbaba068/artifacts
+end_time: 1738455537871
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 685913b61b714b9fa4a66ca7dbaba068
+run_name: trusting-steed-312
+run_uuid: 685913b61b714b9fa4a66ca7dbaba068
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738455537861
+status: 3
+tags: []
+user_id: brice

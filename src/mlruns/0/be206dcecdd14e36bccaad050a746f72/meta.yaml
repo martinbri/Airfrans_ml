@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/be206dcecdd14e36bccaad050a746f72/artifacts
+end_time: 1738453340127
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be206dcecdd14e36bccaad050a746f72
+run_name: treasured-gnat-23
+run_uuid: be206dcecdd14e36bccaad050a746f72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738453337351
+status: 3
+tags: []
+user_id: brice

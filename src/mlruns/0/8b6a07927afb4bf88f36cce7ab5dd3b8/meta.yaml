@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/8b6a07927afb4bf88f36cce7ab5dd3b8/artifacts
+end_time: 1738436814386
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b6a07927afb4bf88f36cce7ab5dd3b8
+run_name: incongruous-ray-983
+run_uuid: 8b6a07927afb4bf88f36cce7ab5dd3b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738436808653
+status: 3
+tags: []
+user_id: brice

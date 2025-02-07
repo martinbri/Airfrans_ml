@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/3a0c161b58a34788ab861b81197f98ba/artifacts
+end_time: 1738455763169
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3a0c161b58a34788ab861b81197f98ba
+run_name: bold-flea-159
+run_uuid: 3a0c161b58a34788ab861b81197f98ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738455760718
+status: 3
+tags: []
+user_id: brice

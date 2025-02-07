@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/11f1e8a748a045a4bf4a9846eae76bef/artifacts
+end_time: 1738452969555
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 11f1e8a748a045a4bf4a9846eae76bef
+run_name: nervous-shrew-333
+run_uuid: 11f1e8a748a045a4bf4a9846eae76bef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738452966943
+status: 3
+tags: []
+user_id: brice

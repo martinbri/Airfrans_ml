@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/cb4c6c576ba74c438358d86157323215/artifacts
+end_time: 1738454453095
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb4c6c576ba74c438358d86157323215
+run_name: salty-dolphin-158
+run_uuid: cb4c6c576ba74c438358d86157323215
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738454450221
+status: 3
+tags: []
+user_id: brice

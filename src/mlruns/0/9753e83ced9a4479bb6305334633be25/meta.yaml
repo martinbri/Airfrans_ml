@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/9753e83ced9a4479bb6305334633be25/artifacts
+end_time: 1738451024469
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9753e83ced9a4479bb6305334633be25
+run_name: delicate-conch-155
+run_uuid: 9753e83ced9a4479bb6305334633be25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738451024455
+status: 3
+tags: []
+user_id: brice

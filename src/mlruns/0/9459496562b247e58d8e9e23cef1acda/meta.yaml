@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/9459496562b247e58d8e9e23cef1acda/artifacts
+end_time: 1738453724215
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9459496562b247e58d8e9e23cef1acda
+run_name: clean-panda-442
+run_uuid: 9459496562b247e58d8e9e23cef1acda
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738453721404
+status: 3
+tags: []
+user_id: brice

@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/8d8923037b55432e83fdfa2fed70869d/artifacts
+deleted_time: 1738510421801
+end_time: 1738436466538
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: 8d8923037b55432e83fdfa2fed70869d
+run_name: stately-slug-869
+run_uuid: 8d8923037b55432e83fdfa2fed70869d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738436458890
+status: 3
+tags: []
+user_id: brice

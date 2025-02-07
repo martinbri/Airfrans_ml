@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/fcb415b9f75f4bf5a13458ae7ac51d65/artifacts
+end_time: 1738454517988
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fcb415b9f75f4bf5a13458ae7ac51d65
+run_name: big-slug-11
+run_uuid: fcb415b9f75f4bf5a13458ae7ac51d65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738454515121
+status: 3
+tags: []
+user_id: brice

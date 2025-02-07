@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/0c3c34a084d4494cba28ee360b67fe18/artifacts
+end_time: 1738512019146
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: active
+run_id: 0c3c34a084d4494cba28ee360b67fe18
+run_name: upbeat-snipe-533
+run_uuid: 0c3c34a084d4494cba28ee360b67fe18
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738512009164
+status: 3
+tags: []
+user_id: brice

@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/d9421e15dd9d4484acf17f974d392e9b/artifacts
+deleted_time: 1738510421788
+end_time: 1738509362017
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: d9421e15dd9d4484acf17f974d392e9b
+run_name: amazing-quail-527
+run_uuid: d9421e15dd9d4484acf17f974d392e9b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738509361852
+status: 3
+tags: []
+user_id: brice

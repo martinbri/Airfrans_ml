@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/e9f7711757d8439daac1b31ec9a345cd/artifacts
+end_time: 1738455571410
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e9f7711757d8439daac1b31ec9a345cd
+run_name: amazing-fish-259
+run_uuid: e9f7711757d8439daac1b31ec9a345cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738455568830
+status: 3
+tags: []
+user_id: brice

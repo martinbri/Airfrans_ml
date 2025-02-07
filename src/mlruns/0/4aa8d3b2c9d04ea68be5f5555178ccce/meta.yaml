@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/4aa8d3b2c9d04ea68be5f5555178ccce/artifacts
+end_time: 1738454711175
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4aa8d3b2c9d04ea68be5f5555178ccce
+run_name: worried-boar-321
+run_uuid: 4aa8d3b2c9d04ea68be5f5555178ccce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738454708746
+status: 3
+tags: []
+user_id: brice

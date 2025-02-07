@@ -1,0 +1,1 @@
+Logistic Regression to classify Cl depending on ['AoA', 'Camber(NACA)', 'Pos max Camber (NACA)', 'Thickness'] in 10 classes.

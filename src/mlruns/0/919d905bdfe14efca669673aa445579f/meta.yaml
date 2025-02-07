@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/919d905bdfe14efca669673aa445579f/artifacts
+end_time: 1738437120160
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 919d905bdfe14efca669673aa445579f
+run_name: bald-lynx-621
+run_uuid: 919d905bdfe14efca669673aa445579f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738437120109
+status: 3
+tags: []
+user_id: brice

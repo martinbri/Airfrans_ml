@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/d4b980cb07094810ab0b7fa5bd603ee0/artifacts
+end_time: 1738455639795
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d4b980cb07094810ab0b7fa5bd603ee0
+run_name: treasured-cow-10
+run_uuid: d4b980cb07094810ab0b7fa5bd603ee0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738455637184
+status: 3
+tags: []
+user_id: brice

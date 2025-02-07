@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/2069faa1d6ba4c729906eb8793c2c3e8/artifacts
+end_time: 1738511557111
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: active
+run_id: 2069faa1d6ba4c729906eb8793c2c3e8
+run_name: sincere-roo-437
+run_uuid: 2069faa1d6ba4c729906eb8793c2c3e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738511550724
+status: 3
+tags: []
+user_id: brice

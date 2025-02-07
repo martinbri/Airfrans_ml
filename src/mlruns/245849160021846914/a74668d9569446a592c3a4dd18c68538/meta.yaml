@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/a74668d9569446a592c3a4dd18c68538/artifacts
+deleted_time: 1738510421791
+end_time: 1738508049589
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: a74668d9569446a592c3a4dd18c68538
+run_name: marvelous-stoat-488
+run_uuid: a74668d9569446a592c3a4dd18c68538
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738508046779
+status: 3
+tags: []
+user_id: brice

@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/a2718f19838242fd989403f39380dfa2/artifacts
+deleted_time: 1738510434239
+end_time: 1738434944173
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: a2718f19838242fd989403f39380dfa2
+run_name: nimble-gnu-224
+run_uuid: a2718f19838242fd989403f39380dfa2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738434944148
+status: 4
+tags: []
+user_id: brice

@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/bbc305b642d84fdebe79874bfeb64349/artifacts
+deleted_time: 1738510421803
+end_time: 1738435916936
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: bbc305b642d84fdebe79874bfeb64349
+run_name: charming-skunk-818
+run_uuid: bbc305b642d84fdebe79874bfeb64349
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738435850273
+status: 4
+tags: []
+user_id: brice

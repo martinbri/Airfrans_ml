@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/8543ceff1105411abbb4b57dc1cfaa72/artifacts
+end_time: 1738454181128
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8543ceff1105411abbb4b57dc1cfaa72
+run_name: carefree-shoat-4
+run_uuid: 8543ceff1105411abbb4b57dc1cfaa72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738454178373
+status: 3
+tags: []
+user_id: brice

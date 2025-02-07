@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/9eb2fca1df50411c9e5a3160d737e5ad/artifacts
+end_time: 1738513223534
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: active
+run_id: 9eb2fca1df50411c9e5a3160d737e5ad
+run_name: secretive-smelt-622
+run_uuid: 9eb2fca1df50411c9e5a3160d737e5ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738513219009
+status: 3
+tags: []
+user_id: brice

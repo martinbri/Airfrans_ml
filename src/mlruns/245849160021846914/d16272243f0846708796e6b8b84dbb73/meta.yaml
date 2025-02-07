@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/d16272243f0846708796e6b8b84dbb73/artifacts
+end_time: 1738512589842
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: active
+run_id: d16272243f0846708796e6b8b84dbb73
+run_name: clean-ape-585
+run_uuid: d16272243f0846708796e6b8b84dbb73
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738512558791
+status: 3
+tags: []
+user_id: brice

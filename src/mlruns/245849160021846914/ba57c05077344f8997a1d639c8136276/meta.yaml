@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/ba57c05077344f8997a1d639c8136276/artifacts
+deleted_time: 1738510421809
+end_time: 1738435594294
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: ba57c05077344f8997a1d639c8136276
+run_name: awesome-crow-306
+run_uuid: ba57c05077344f8997a1d639c8136276
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738435535472
+status: 3
+tags: []
+user_id: brice

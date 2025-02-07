@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/678a8b5f088c43dfa7e1b341c89a0e91/artifacts
+end_time: 1738454394820
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 678a8b5f088c43dfa7e1b341c89a0e91
+run_name: honorable-goat-103
+run_uuid: 678a8b5f088c43dfa7e1b341c89a0e91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738454392037
+status: 3
+tags: []
+user_id: brice

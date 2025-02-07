@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/6bb39022c9d946f98cc8b2c8b7d49801/artifacts
+end_time: 1738511615512
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: active
+run_id: 6bb39022c9d946f98cc8b2c8b7d49801
+run_name: amazing-jay-165
+run_uuid: 6bb39022c9d946f98cc8b2c8b7d49801
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738511592332
+status: 3
+tags: []
+user_id: brice

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/1e81163078894e3b9f080967c0d5ac98/artifacts
+end_time: 1738448749445
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1e81163078894e3b9f080967c0d5ac98
+run_name: selective-hen-952
+run_uuid: 1e81163078894e3b9f080967c0d5ac98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738448749434
+status: 3
+tags: []
+user_id: brice

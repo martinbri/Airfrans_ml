@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/6ca0273c80574d58912ec284c665e410/artifacts
+deleted_time: 1738510421782
+end_time: 1738509445184
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: 6ca0273c80574d58912ec284c665e410
+run_name: invincible-donkey-61
+run_uuid: 6ca0273c80574d58912ec284c665e410
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738509442308
+status: 3
+tags: []
+user_id: brice

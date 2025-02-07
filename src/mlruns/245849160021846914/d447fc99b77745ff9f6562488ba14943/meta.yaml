@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/d447fc99b77745ff9f6562488ba14943/artifacts
+deleted_time: 1738510421812
+end_time: 1738435119502
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: d447fc99b77745ff9f6562488ba14943
+run_name: kindly-auk-897
+run_uuid: d447fc99b77745ff9f6562488ba14943
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738435113468
+status: 3
+tags: []
+user_id: brice

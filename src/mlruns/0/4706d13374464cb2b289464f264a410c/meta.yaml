@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/4706d13374464cb2b289464f264a410c/artifacts
+end_time: 1738455927678
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4706d13374464cb2b289464f264a410c
+run_name: glamorous-conch-270
+run_uuid: 4706d13374464cb2b289464f264a410c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738455925192
+status: 3
+tags: []
+user_id: brice

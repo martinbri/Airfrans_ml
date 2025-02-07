@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/aa3a7ad041b848fea5ba64a76abb94bd/artifacts
+end_time: 1738450054272
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa3a7ad041b848fea5ba64a76abb94bd
+run_name: sedate-bee-319
+run_uuid: aa3a7ad041b848fea5ba64a76abb94bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738450051584
+status: 3
+tags: []
+user_id: brice

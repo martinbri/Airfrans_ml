@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/13e3a30c647d4608900a37771ebc598a/artifacts
+end_time: 1738450384014
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 13e3a30c647d4608900a37771ebc598a
+run_name: sincere-lark-589
+run_uuid: 13e3a30c647d4608900a37771ebc598a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738450381296
+status: 3
+tags: []
+user_id: brice

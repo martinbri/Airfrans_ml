@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/29ac666dbe894784a5334a2a9e40157c/artifacts
+end_time: 1738452279449
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29ac666dbe894784a5334a2a9e40157c
+run_name: defiant-rook-559
+run_uuid: 29ac666dbe894784a5334a2a9e40157c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738452279439
+status: 3
+tags: []
+user_id: brice

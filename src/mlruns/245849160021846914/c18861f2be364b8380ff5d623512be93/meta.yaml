@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/c18861f2be364b8380ff5d623512be93/artifacts
+deleted_time: 1738510421788
+end_time: 1738509322170
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: c18861f2be364b8380ff5d623512be93
+run_name: intelligent-hare-190
+run_uuid: c18861f2be364b8380ff5d623512be93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738509320008
+status: 3
+tags: []
+user_id: brice

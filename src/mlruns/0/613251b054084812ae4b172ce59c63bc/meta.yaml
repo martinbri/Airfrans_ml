@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/613251b054084812ae4b172ce59c63bc/artifacts
+end_time: 1738437043256
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 613251b054084812ae4b172ce59c63bc
+run_name: amusing-stag-961
+run_uuid: 613251b054084812ae4b172ce59c63bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738437043203
+status: 3
+tags: []
+user_id: brice

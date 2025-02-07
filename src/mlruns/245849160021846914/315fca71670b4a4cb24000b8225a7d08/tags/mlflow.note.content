@@ -1,0 +1,1 @@
+Logistic Regression to classify Cd depending on ['Re', 'AoA', 'Camber(NACA)', 'Pos max Camber (NACA)', 'Thickness'] in 10 classes.

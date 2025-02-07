@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/78091803a58c47e6945c295356461d70/artifacts
+deleted_time: 1738510421807
+end_time: 1738435643969
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: 78091803a58c47e6945c295356461d70
+run_name: salty-panda-660
+run_uuid: 78091803a58c47e6945c295356461d70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738435606984
+status: 3
+tags: []
+user_id: brice

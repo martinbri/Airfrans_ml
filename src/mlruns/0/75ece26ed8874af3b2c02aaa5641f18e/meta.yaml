@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/75ece26ed8874af3b2c02aaa5641f18e/artifacts
+end_time: 1738451093668
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 75ece26ed8874af3b2c02aaa5641f18e
+run_name: learned-trout-889
+run_uuid: 75ece26ed8874af3b2c02aaa5641f18e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738451093655
+status: 3
+tags: []
+user_id: brice

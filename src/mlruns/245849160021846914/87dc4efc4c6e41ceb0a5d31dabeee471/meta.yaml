@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/87dc4efc4c6e41ceb0a5d31dabeee471/artifacts
+deleted_time: 1738510421786
+end_time: 1738509394419
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: 87dc4efc4c6e41ceb0a5d31dabeee471
+run_name: nervous-asp-197
+run_uuid: 87dc4efc4c6e41ceb0a5d31dabeee471
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738509394256
+status: 3
+tags: []
+user_id: brice

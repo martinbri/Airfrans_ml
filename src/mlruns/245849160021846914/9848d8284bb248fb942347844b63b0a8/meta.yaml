@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/9848d8284bb248fb942347844b63b0a8/artifacts
+end_time: 1738512448208
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: active
+run_id: 9848d8284bb248fb942347844b63b0a8
+run_name: loud-zebra-638
+run_uuid: 9848d8284bb248fb942347844b63b0a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738512443124
+status: 3
+tags: []
+user_id: brice

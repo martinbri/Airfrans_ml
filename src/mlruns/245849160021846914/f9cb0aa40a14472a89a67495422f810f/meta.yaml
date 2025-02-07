@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/f9cb0aa40a14472a89a67495422f810f/artifacts
+deleted_time: 1738510434243
+end_time: 1738434826392
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: f9cb0aa40a14472a89a67495422f810f
+run_name: silent-croc-81
+run_uuid: f9cb0aa40a14472a89a67495422f810f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738434826362
+status: 4
+tags: []
+user_id: brice

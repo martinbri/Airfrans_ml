@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/28b62600a65e4da0adc592774ee1d1ce/artifacts
+end_time: 1738437295238
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 28b62600a65e4da0adc592774ee1d1ce
+run_name: colorful-shoat-987
+run_uuid: 28b62600a65e4da0adc592774ee1d1ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738437289556
+status: 3
+tags: []
+user_id: brice

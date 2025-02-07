@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/91ab16651d474dfe8ca6bda2344c181d/artifacts
+deleted_time: 1738510421790
+end_time: 1738509270792
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: 91ab16651d474dfe8ca6bda2344c181d
+run_name: aged-vole-89
+run_uuid: 91ab16651d474dfe8ca6bda2344c181d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738509267649
+status: 3
+tags: []
+user_id: brice

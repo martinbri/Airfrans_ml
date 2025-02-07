@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/8b198a3a598b4161a314bd26baed991d/artifacts
+end_time: 1738450333029
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b198a3a598b4161a314bd26baed991d
+run_name: persistent-cod-140
+run_uuid: 8b198a3a598b4161a314bd26baed991d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738450330608
+status: 3
+tags: []
+user_id: brice

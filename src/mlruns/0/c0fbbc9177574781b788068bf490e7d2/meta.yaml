@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/c0fbbc9177574781b788068bf490e7d2/artifacts
+end_time: 1738449962086
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c0fbbc9177574781b788068bf490e7d2
+run_name: judicious-goat-495
+run_uuid: c0fbbc9177574781b788068bf490e7d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738449959728
+status: 3
+tags: []
+user_id: brice

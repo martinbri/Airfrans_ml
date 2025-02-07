@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/24ff5ae9bd42473891860b162f25e99b/artifacts
+deleted_time: 1738510434237
+end_time: 1738435017058
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: 24ff5ae9bd42473891860b162f25e99b
+run_name: zealous-goat-974
+run_uuid: 24ff5ae9bd42473891860b162f25e99b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738435011238
+status: 3
+tags: []
+user_id: brice

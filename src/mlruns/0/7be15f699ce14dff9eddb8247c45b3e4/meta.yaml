@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/7be15f699ce14dff9eddb8247c45b3e4/artifacts
+end_time: 1738449103403
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7be15f699ce14dff9eddb8247c45b3e4
+run_name: unequaled-lark-270
+run_uuid: 7be15f699ce14dff9eddb8247c45b3e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738449101124
+status: 3
+tags: []
+user_id: brice

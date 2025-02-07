@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/2fe31000878d4c33b6d5af57f16ed0d3/artifacts
+deleted_time: 1738510421809
+end_time: 1738435510909
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: 2fe31000878d4c33b6d5af57f16ed0d3
+run_name: powerful-fox-325
+run_uuid: 2fe31000878d4c33b6d5af57f16ed0d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738435485834
+status: 3
+tags: []
+user_id: brice

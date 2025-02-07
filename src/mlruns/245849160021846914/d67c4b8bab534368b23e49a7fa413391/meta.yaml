@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/d67c4b8bab534368b23e49a7fa413391/artifacts
+end_time: 1738513188171
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: active
+run_id: d67c4b8bab534368b23e49a7fa413391
+run_name: unruly-quail-653
+run_uuid: d67c4b8bab534368b23e49a7fa413391
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738513180696
+status: 3
+tags: []
+user_id: brice

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/9660f98e4e0a4940afc366b59f71dedd/artifacts
+end_time: 1738509176383
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9660f98e4e0a4940afc366b59f71dedd
+run_name: sneaky-turtle-137
+run_uuid: 9660f98e4e0a4940afc366b59f71dedd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738509176367
+status: 3
+tags: []
+user_id: brice

@@ -1,0 +1,7 @@
+{
+  "input_columns": [
+    "AoA",
+    "Thickness"
+  ],
+  "output_column": "Cd"
+}

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/0/6eccf11b65b4448bb23ffcc6e61500ad/artifacts
+end_time: 1738449991929
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6eccf11b65b4448bb23ffcc6e61500ad
+run_name: illustrious-cub-463
+run_uuid: 6eccf11b65b4448bb23ffcc6e61500ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738449989541
+status: 3
+tags: []
+user_id: brice

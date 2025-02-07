@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/9d46eb00e13b417eba59b6dceab25c39/artifacts
+deleted_time: 1738510421805
+end_time: 1738435799510
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: 9d46eb00e13b417eba59b6dceab25c39
+run_name: ambitious-grouse-364
+run_uuid: 9d46eb00e13b417eba59b6dceab25c39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738435746419
+status: 4
+tags: []
+user_id: brice

@@ -1,0 +1,6 @@
+{
+  "input_columns": [
+    "AoA"
+  ],
+  "output_column": "Cd"
+}

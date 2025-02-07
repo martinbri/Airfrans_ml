@@ -1,0 +1,15 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/dae598376c184a5dbd34bea4976318d5/artifacts
+end_time: 1738512485085
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: active
+run_id: dae598376c184a5dbd34bea4976318d5
+run_name: handsome-snake-30
+run_uuid: dae598376c184a5dbd34bea4976318d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738512479190
+status: 3
+tags: []
+user_id: brice

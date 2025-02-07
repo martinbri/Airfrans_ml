@@ -1,0 +1,16 @@
+artifact_uri: file:///home/brice/Documents/Airfrans_ml/src/mlruns/245849160021846914/fab773f021714e98b85e7d297170f183/artifacts
+deleted_time: 1738510421796
+end_time: 1738507495672
+entry_point_name: ''
+experiment_id: '245849160021846914'
+lifecycle_stage: deleted
+run_id: fab773f021714e98b85e7d297170f183
+run_name: trusting-bear-534
+run_uuid: fab773f021714e98b85e7d297170f183
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738507492772
+status: 3
+tags: []
+user_id: brice
