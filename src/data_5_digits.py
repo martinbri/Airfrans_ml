@@ -23,15 +23,16 @@ def makecamberline(simu):
     """
     This function returns the camber line of a NACA profile
     In: name of simulation
-    Out: Camber (Naca notation), equation of the camber line X,Y
+    Out: Camber (Naca notation), equation of the camber line X,Y and full profile
     """
     list_simu_name=simu.name.split('_')
     if len(list_simu_name)==7:
-        thickness=list_simu_name[-1]
-        camber=list_simu_name[-3]
-        max_camber_pos=list_simu_name[-2]
+        thickness=float(list_simu_name[-1])
+        camber=float(list_simu_name[-3])
+        max_camber_pos=float(list_simu_name[-2])
         is_4_digit=True
         params=(camber,max_camber_pos)
+        params_gen=(camber,max_camber_pos,thickness)
     elif len(list_simu_name)==8:
         thickness=float(list_simu_name[-1])
         optimal_Cl=float(list_simu_name[-4])
@@ -39,12 +40,14 @@ def makecamberline(simu):
         is_4_digit=False
         is_double_profile=float(list_simu_name[-2])
         params=(optimal_Cl,max_camber_pos,is_double_profile)
+        params_gen=(optimal_Cl,max_camber_pos,is_double_profile,thickness)
     else:
         raise ValueError('The simulation name is not well formatted')
     X=np.linspace(0,1,400)
     camber_line=airfrans.naca_generator.camber_line(params,X)
     camber_Naca=np.max(camber_line[0])*100#Chord=1 resultat au format Naca
-    return camber_Naca,X,camber_line[0]
+    profile=airfrans.naca_generator.naca_generator(params_gen,verbose=False)
+    return camber_Naca,X,camber_line[0],profile
     
 
 

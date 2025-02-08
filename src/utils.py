@@ -1,40 +1,134 @@
-import pyvista as pv
-from data_5_digits import makecamberline
 import airfrans
 from tqdm import tqdm
-import pandas as pd
+import matplotlib
+import pyvista as pv
 import pickle
 import mlflow
 from mlflow.models import infer_signature
 import mlflow.sklearn
-import seaborn as sns
-from sklearn.metrics import confusion_matrix
-import numpy as np
 import pandas as pd
+from scipy.interpolate import griddata
+import numpy as np
 from sklearn.model_selection import train_test_split
 from data_5_digits import makecamberline
 from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
-from sklearn.metrics import accuracy_score, confusion_matrix,precision_score,recall_score,f1_score
+from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import accuracy_score, confusion_matrix,precision_score,recall_score,f1_score,mean_absolute_error, mean_squared_error, r2_score
 import pytest
-import numpy as np
-import matplotlib.pyplot as plt
-import sklearn
+#import sklearn
+from matplotlib.path import Path
 import os 
 data_folder='/home/brice/Documents/Airfrans_ml/data/Dataset'
 if __name__=="__main__":
     pass
     #data=airfrans.dataset.load(data_folder, 'scarce', train=True)
-def formatize_training_data(data):
+def make_fields_data_base ():
     """
-    This function takes the data from the dataset and formatize it to be used in the training.  
-    In: rough data from aifrans dataset
-    Out: Dataframe with the following columns: Simulations, Re, Mach, AoA, Camber(NACA), Pos max Camber (NACA), Profile Type, Thickness, Cl, Cd, Fitness
-     output is a dataframe with the following columns: Simulations, Re, Mach, AoA, Camber(NACA), Pos max Camber (NACA), Profile Type, Thickness, Cl, Cd, Fitness
+    This function plots the fields of the airfoil
     """
-    list_simulations_name=data[-1]
+    #data=airfrans.dataset.load(data_folder, 'scarce', train=True)
+    list_simu_name=os.listdir(data_folder)    
     aero_load_simulations_df = {
+
+        "Simulations": [],
+        "Pressure": [],
+       
+        "Cl": [],
+        "Cd": [],
+        "Fitness": []
+        }
     
+    for i in tqdm(range(len(list_simu_name)),desc="Formating data",ncols=100,unit='it'):
+        if os.path.splitext(list_simu_name[i])[1].lower() == '.json':
+            # Proceed with further actions if the file is a JSON file
+            print(f"The file {list_simu_name[i]} is a JSON file.")
+            continue
+        simu=airfrans.Simulation(data_folder,list_simu_name[i])
+        (cd,_,_),(cl,_,_)=simu.force_coefficient()
+
+        coordinates=simu.position
+        pressure=simu.pressure
+        
+        
+        
+        # make the pressure fields
+        airfoil_coordinate=simu.airfoil_position
+        plt.plot(simu.airfoil_position[:,0],simu.airfoil_position[:,1])
+        plt.plot(simu.airfoil_position[:,0],simu.airfoil_position[:,1],'go')
+        plt.plot(simu.airfoil_position[0,0],simu.airfoil_position[0,1],'ro')
+        plt.ylim(-0.33,0.33)
+        plt.xlim(-0.5,1.5)
+        _,_,_,profile=makecamberline(simu)
+
+        plt.plot(profile[:,0],profile[:,1],'k-')
+        #plt.plot(profile[:,0],profile[:,1],'go')
+        #plt.plot(profile[0,0],profile[0,1],'ro')
+        plt.close()
+        
+
+    
+        poligon=Path(profile,closed=True)
+
+
+    
+
+        
+
+    
+        grid_x, grid_y = np.mgrid[-0.5:1.5:1000j, -0.33:0.33:333j]
+        points=np.c_[grid_x.reshape(-1,1),grid_y.reshape(-1,1)]
+    
+        inside=poligon.contains_points(points)
+      
+        inside=inside.reshape(1000,333)
+    
+  
+    
+
+        # Interpoler les données sur la grille
+        grid_pressure = griddata(coordinates, pressure, (grid_x, grid_y), method='linear', fill_value=0)
+        grid_pressure[inside]=-0.000
+        maskedgridpressure = np.ma.masked_where(grid_pressure == 0.000, grid_pressure)
+        cmap=matplotlib.cm.viridis
+        cmap.set_bad(color='grey')
+   
+        # Create filled contour plot
+        plt.figure(figsize=(10, 8))
+
+        # Create imshow plot
+        plt.imshow(maskedgridpressure[:,:,0].T,interpolation='bilinear',origin='lower',cmap=cmap)
+    
+        # Add colorbar
+        cbar = plt.colorbar()
+        cbar.set_label('colorbar_label')
+    
+        # Add labels and title
+        plt.xlabel('X')
+        plt.ylabel('Y')
+        plt.title('Pressurefield')    
+        plt.close()
+        aero_load_simulations_df["Simulations"].append(list_simu_name[i])
+        aero_load_simulations_df["Pressure"].append(grid_pressure)
+        aero_load_simulations_df["Cl"].append(cl)
+        aero_load_simulations_df["Cd"].append(cd)
+        aero_load_simulations_df["Fitness"].append(cl/cd)
+        
+        
+
+    with open('data_pressure_field.pkl', 'wb') as f:
+            pickle.dump(aero_load_simulations_df, f)
+    print("Data has been cached.")
+    
+    return pd.DataFrame(aero_load_simulations_df)
+
+make_fields_data_base()
+plt.show()
+dd
+
+def formatize_training_data(data,aero_load_simulations_df = {
+
         "Simulations": [],
         "Re": [],
         "Mach": [],
@@ -46,7 +140,15 @@ def formatize_training_data(data):
         "Cl": [],
         "Cd": [],
         "Fitness": []
-        }
+        }):
+    """
+    This function takes the data from the dataset and formatize it to be used in the training.  
+    In: rough data from aifrans dataset
+    Out: Dataframe with the following columns: Simulations, Re, Mach, AoA, Camber(NACA), Pos max Camber (NACA), Profile Type, Thickness, Cl, Cd, Fitness
+     output is a dataframe with the following columns: Simulations, Re, Mach, AoA, Camber(NACA), Pos max Camber (NACA), Profile Type, Thickness, Cl, Cd, Fitness
+    """
+    list_simulations_name=data[-1]
+    
     
     # Dictionaire Simulation Re, Mach, AoA, thickness, camber lift, drag,, fitness
     
@@ -111,11 +213,11 @@ class ML_pipeline:
         self.X=self.data_set[features_input]
         self.y=self.data_set[features_output]
         if is_classification:
+            verbose=False
 
-            verbose=params.get('verbose',False)
             self.y = self._label_data(nclass,verbose)
         
-            
+        self.is_classification=is_classification
 
         self.model=model(**params)
         self.Ml_flow=Ml_flow
@@ -166,12 +268,22 @@ class ML_pipeline:
         """
         This function trains the model on the dataset
         """
-        self.model.fit(self.X_train,self.y_train,verbose=1)
-        self.weights=self.model.coef_
-        accuracy = accuracy_score(self.y_train, self.model.predict(self.X_train),average='weighted')
-        precision=precision_score(self.y_train, self.model.predict(self.X_train),average='weighted')
-        recall=recall_score(self.y_train, self.model.predict(self.X_train),average='weighted')
-        f1=f1_score(self.y_train, self.model.predict(self.X_train),average='weighted')
+        self.model.fit(self.X_train,self.y_train)
+        if hasattr(self.model,'coef_'):
+            self.weights=self.model.coef_
+            self.intercept=self.model.intercept_
+        if self.is_classification:
+
+            accuracy = accuracy_score(self.y_train, self.model.predict(self.X_train),average='weighted')
+            precision=precision_score(self.y_train, self.model.predict(self.X_train),average='weighted')
+            recall=recall_score(self.y_train, self.model.predict(self.X_train),average='weighted')
+            f1=f1_score(self.y_train, self.model.predict(self.X_train),average='weighted')
+        else :
+            score = r2_score(self.y_train, self.model.predict(self.X_train))
+            abs_error=mean_absolute_error(self.y_train, self.model.predict(self.X_train))
+            mse=mean_squared_error(self.y_train, self.model.predict(self.X_train))
+            f1=None
+            print('score from training: {}, abs_error {}, mse: {}'.format(score,abs_error,mse))    
     
         if self.Ml_flow:
             mlflow.log_param('weights',self.weights)
@@ -190,12 +302,18 @@ class ML_pipeline:
         """
         This function tests the model on the dataset
         """
-        self.y_pred=self.model.predict(self.X_test)
-        accuracy = accuracy_score(self.y_train, self.y_pred,average='weighted')
-        precision=precision_score(self.y_train, self.y_pred,average='weighted')
-        recall=recall_score(self.y_train, self.y_pred,average='weighted')
-        f1=f1_score(self.y_train, self.y_pred,average='weighted')
-    
+        y_pred=self.model.predict(self.X_test)
+        if self.is_classification:
+            accuracy = accuracy_score(self.y_test, y_pred,average='weighted')
+            precision=precision_score(self.y_test, y_pred,average='weighted')
+            recall=recall_score(self.y_test, y_pred,average='weighted')
+            f1=f1_score(self.y_test, y_pred,average='weighted')
+        else :
+            score = r2_score(self.y_test, y_pred)
+            abs_error=mean_absolute_error(self.y_test, y_pred)
+            mse=mean_squared_error(self.y_test, y_pred)
+            f1=None
+            print('score from testing: {}, abs_error {}, mse: {}'.format(score,abs_error,mse))   
         if self.Ml_flow:
            # Loguer les paramètres, les métriques et le modèle avec MLflow
             mlflow.log_metric("accuracy", accuracy)
@@ -260,11 +378,60 @@ if __name__=="__main__":
             df_airfrans_data = pickle.load(f)
     else:
         # If the cached file does not exist, load the dataset and save it to the cache
-        rough_data=airfrans.dataset.load(data_folder, 'full', train=True)
-        df_airfrans_data=formatize_training_data(rough_data)[1]
+        rough_data=airfrans.dataset.load(data_folder, 'scarce', train=True)
+        df_airfrans_data=formatize_training_data(rough_data)
         with open(cache_file, 'wb') as f:
             pickle.dump(df_airfrans_data, f)
         print("Data has been cached.")
+features_in=['Re', 'Mach', 'AoA', 'Camber(NACA)', 'Pos max Camber (NACA)', 'Profile Type', 'Thickness']
+
+#features_in=['Re', 'AoA', 'Camber(NACA)', 'Pos max Camber (NACA)', 'Thickness']
+from sklearn.ensemble import RandomForestRegressor
+params={'n_estimators':1000, 'max_depth':10,'random_state':42}
+
+linear_regression=ML_pipeline(df_airfrans_data, RandomForestRegressor, features_input=features_in, features_output='Fitness', need_formatize=False, formatizer=None, Ml_flow=False, params=params, is_classification=False, nclass=10)
 
 
-    logistic_regression = ML_pipeline(df_airfrans_data, sklearn.linear_model.LogisticRegression, ['Re', 'Mach', 'AoA', 'Camber(NACA)', 'Pos max Camber (NACA)', 'Profile Type', 'Thickness'], 'Fitness', need_formatize=False, formatizer=None, Ml_flow=False, params={'verbose':True}, is_classification=True, nclass=10)
+
+
+#linear_regression=ML_pipeline(df_airfrans_data, sklearn.linear_model.LinearRegression, features_in, 'Fitness', need_formatize=False, formatizer=None, Ml_flow=False, params={}, is_classification=False, nclass=10)
+linear_regression._split_data()
+linear_regression._train()
+linear_regression._test()
+
+plt.plot(df_airfrans_data['AoA'],df_airfrans_data['Fitness'],'go')
+plt.plot(df_airfrans_data['AoA'],linear_regression.model.predict(linear_regression.X),'bo')
+
+plt.show()
+
+y_pred=linear_regression.model.predict(linear_regression.X_test)
+# Résidus
+residuals = (linear_regression.y_test - y_pred)/linear_regression.y_test 
+
+from sklearn.model_selection import learning_curve
+import numpy as np
+
+train_sizes, train_scores, test_scores = learning_curve(linear_regression.model, linear_regression.X_train, linear_regression.y_train, cv=5, scoring='neg_mean_squared_error')
+
+# Moyenne des scores pour les ensembles d'entraînement et de test
+train_errors = -np.mean(train_scores, axis=1)
+test_errors = -np.mean(test_scores, axis=1)
+
+plt.plot(train_sizes, train_errors, label="Erreur d'entraînement")
+plt.plot(train_sizes, test_errors, label="Erreur de validation")
+plt.xlabel('Nombre d’exemples d’entraînement')
+plt.ylabel('Erreur MSE')
+plt.title('Courbe d’apprentissage')
+plt.legend()
+plt.show()
+
+
+# Visualisation des résidus
+sns.scatterplot(x=y_pred, y=residuals)
+plt.axhline(y=0, color='r', linestyle='--')
+plt.xlabel('Valeurs prédites')
+plt.ylabel('Résidus')
+plt.title('Graphique des résidus')
+plt.show()
+LinearRegression()
+#logistic_regression = ML_pipeline(df_airfrans_data, sklearn.linear_model.LogisticRegression, ['Re', 'Mach', 'AoA', 'Camber(NACA)', 'Pos max Camber (NACA)', 'Profile Type', 'Thickness'], 'Fitness', need_formatize=False, formatizer=None, Ml_flow=False, params={'verbose':True}, is_classification=True, nclass=10)
